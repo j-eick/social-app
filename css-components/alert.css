@@ -1,0 +1,31 @@
+.alert--header {
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 24px;
+  top: 68px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: var(--title);
+}
+.mark-all {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 251px;
+  top: 74px;
+  color: var(--social-pink);
+  font-size: var(--secondary-text);
+  text-align: right;
+}
+.day {
+  position: absolute;
+  width: 48px;
+  height: 16px;
+  left: 24px;
+  top: 116px;
+  font-size: var(--tertiary-terxt);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--light-gray);
+}
