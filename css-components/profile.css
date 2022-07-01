@@ -92,7 +92,7 @@
   font-size: var(--secondary-text);
   font-weight: 200;
 }
-.tab--bar a {
+a {
   text-decoration: none;
 }
 .divider1 {
