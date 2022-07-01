@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--black);
+  background-color: var(--dark-gray);
   color: var(--white);
   font-family: "Poppins", sans-serif;
 }
@@ -10,7 +10,7 @@
 :root {
   /*  Brand-Colors:  */
   --black: #000000;
-  --dark-black: #181a1c;
+  --dark-gray: #181a1c;
   --gray: #323436;
   --light-gray: #727477;
   --white: #ffffff;
