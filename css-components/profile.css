@@ -11,4 +11,10 @@
   height: 150px;
   left: 113px;
   top: 85px;
+  background: transparent;
+}
+_.userField {
+  background-color: aqua;
+  height: 10rem;
+  position: absolute;
 }
