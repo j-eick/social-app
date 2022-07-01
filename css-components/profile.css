@@ -13,8 +13,29 @@
   top: 85px;
   background: transparent;
 }
-_.userField {
-  background-color: aqua;
-  height: 10rem;
+.userField {
   position: absolute;
+  width: 375px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  top: 247px;
+}
+.userName {
+  margin: 0.3rem;
+  font-size: var(--title);
+  color: var(--white);
+}
+.userCity {
+  margin: 0.3rem;
+  font-size: var(--secondary-text);
+  color: var(--light-gray);
+}
+.userJob {
+  margin: 0.3rem;
+  font-size: var(--secondary-text);
+  color: var(--light-white);
 }
