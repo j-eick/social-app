@@ -17,6 +17,9 @@
 }
 
 .story-slider-preview-elem {
+  display: flex;
+  object-fit: cover;
+  box-shadow: 1px 1.5px 4px 0 rgb(217, 217, 217);
   border-radius: 16px;
   background: linear-gradient(
     180deg,
@@ -25,15 +28,28 @@
   );
 }
 
-.story-slider-preview-elem > img {
+.story-slider-preview-elem img {
   height: 140px;
   width: 100px;
-  object-fit: cover;
-  box-shadow: 1px 1.5px 4px 0 rgb(217, 217, 217);
-
-  display: flex;
 }
 
 img.rounded-corners {
   border-radius: 16px;
 }
+
+li {
+  position: relative;
+}
+
+.story-slider-profilepic {
+  position: absolute;
+  padding: 10px;
+  background-color: aqua;
+}
+
+/* .story-slider-profilepic a {
+  position: absolute;
+  padding: 10px;
+  z-index: 10;
+  background-color: aqua;
+} */
