@@ -1,0 +1,17 @@
+:root {
+  /*  Brand-Colors:  */
+  --black: #000000;
+  --dark-black: #181a1c;
+  --gray: #323436;
+  --light-gray: #727477;
+  --white: #ffffff;
+  --light-white: #ecebed;
+  --social-blue: #3e8af6;
+  --social-pink: #f62e8e;
+  --gradient: linear-gradient(to right, #f62e8e, #ac1af0);
+  /*  Text-Styles:  */
+  --title: 18px;
+  --body: 16px;
+  --secondary-text: 14px;
+  --tertiary-terxt: 12px;
+}
