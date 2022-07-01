@@ -1,0 +1,14 @@
+.profile--banner {
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+}
+.profile--photo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 113px;
+  top: 85px;
+}
