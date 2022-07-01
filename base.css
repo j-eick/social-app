@@ -3,7 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   background-color: var(--black);
-  _color: var(--white);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
 }
 
 :root {

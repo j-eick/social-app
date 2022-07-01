@@ -13,7 +13,7 @@
   top: 85px;
   background: transparent;
 }
-.userField {
+.user--field {
   position: absolute;
   width: 375px;
   height: 80px;
@@ -24,18 +24,35 @@
   background: transparent;
   top: 247px;
 }
-.userName {
+.user--name {
   margin: 0.3rem;
   font-size: var(--title);
+  font-weight: 700;
   color: var(--white);
 }
-.userCity {
+.user--city {
   margin: 0.3rem;
+  font-weight: 400;
   font-size: var(--secondary-text);
   color: var(--light-gray);
 }
-.userJob {
+.user--job {
   margin: 0.3rem;
+  font-weight: 400;
   font-size: var(--secondary-text);
   color: var(--light-white);
+}
+.profile--actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 29px;
+  position: absolute;
+  width: 327px;
+  height: 36px;
+  left: 24px;
+  top: 353px;
+  font-size: var(--secondary-text);
 }
