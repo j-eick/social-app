@@ -4,52 +4,52 @@
   background-color: var(--dark-black);
 }
 
-.story-slider {
-  _margin-top: 20px;
-  padding: 20px 20px;
-}
-
-.story-slider-preview {
+.storyslider {
+  padding: 20px 0;
   display: flex;
   list-style: none;
   justify-content: space-around;
   gap: 15px;
 }
 
-.story-slider-preview-elem {
+.storyslider-preview-elem {
   display: flex;
-  object-fit: cover;
-  box-shadow: 1px 1.5px 4px 0 rgb(217, 217, 217);
-  border-radius: 16px;
+
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.6) 91.43%
   );
+
+  object-fit: cover;
+  box-shadow: 1px 1.5px 4px 0 rgb(217, 217, 217);
+  border-radius: 16px;
 }
 
-.story-slider-preview-elem img {
+.storyslider-preview-elem img {
   height: 140px;
   width: 100px;
+}
+
+.storyslider-preview-elem {
+  height: 140px;
+  width: 100px;
+  position: relative;
+}
+
+.storyslider-profilepic {
+  height: 30%;
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+
+  _background-color: aqua;
+  left: 50%;
+  transform: translate(-50%);
+  object-fit: contain;
+  z-index: 10;
 }
 
 img.rounded-corners {
   border-radius: 16px;
 }
-
-li {
-  position: relative;
-}
-
-.story-slider-profilepic {
-  position: absolute;
-  padding: 10px;
-  background-color: aqua;
-}
-
-/* .story-slider-profilepic a {
-  position: absolute;
-  padding: 10px;
-  z-index: 10;
-  background-color: aqua;
-} */
