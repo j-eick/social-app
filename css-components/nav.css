@@ -1,0 +1,37 @@
+.navbar {
+  background-color: var(--dark-black);
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.home,
+.search,
+.plus,
+.alert,
+.profile {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  fill: var(--white);
+}
+
+.plus {
+  border-radius: 50%;
+  /* in base.css anpassen + var() einfügen */
+  background-image: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  padding: 6px;
+}
+
+path {
+  filter: invert(100%);
+}

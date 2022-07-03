@@ -1,0 +1,49 @@
+header {
+  background-color: var(--dark-black);
+  font-size: 18px;
+  color: var(--light-white);
+  width: 100vw;
+  top: 0;
+}
+
+.welcome-bar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mail-Icon {
+}
+
+.mail-border {
+  border: 1px solid;
+  border-color: var(--light-gray);
+  border-radius: 10px;
+}
+
+Base.css * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  /*  Brand-Colors:  */
+  --black: #000000;
+  --dark-black: #181a1c;
+  --gray: #323436;
+  --light-gray: #727477;
+  --white: #ffffff;
+  --light-white: #ecebed;
+  --social-blue: #3e8af6;
+  --social-pink: #f62e8e;
+  --gradient: linear-gradient(to right, #f62e8e, #ac1af0);
+  /*  Text-Styles:  */
+  --title: 18px;
+  --body: 16px;
+  --secondary-text: 14px;
+  --tertiary-terxt: 12px;
+}
