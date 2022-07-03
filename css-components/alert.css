@@ -5,19 +5,18 @@
   left: 24px;
   top: 68px;
   color: var(--white);
-  font-weight: 700;
+  font-weight: 600;
   font-size: var(--title);
 }
 .mark-all {
   position: absolute;
   width: 120px;
   height: 24px;
-  right: 24px;
+  left: 240px;
   top: 74px;
   color: var(--social-pink);
   font-size: var(--secondary-text);
-  font-weight: 700;
-  text-align: right;
+  font-weight: 600;
 }
 .today {
   position: absolute;
@@ -25,7 +24,7 @@
   height: 16px;
   left: 24px;
   top: 116px;
-  font-size: var(--tertiary-terxt);
+  font-size: var(--tertiary-text);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--light-gray);
@@ -36,7 +35,7 @@
   height: 16px;
   left: 24px;
   top: 370px;
-  font-size: var(--tertiary-terxt);
+  font-size: var(--tertiary-text);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--light-gray);
@@ -92,22 +91,39 @@
   background: transparent;
   line-height: 20px;
 }
-.alert--text {
+.alert--text--new {
   font-weight: 700;
   font-size: var(--secondary-text);
 }
-.alert--text span {
-  font-weight: 400;
+.alert--text--old {
+  font-weight: 700;
+  font-size: var(--secondary-text);
+  color: var(--light-gray);
+}
+.alert--text--new span {
+  font-weight: 100;
+}
+.alert--text--old span {
+  color: var(--light-gray);
+  font-weight: 100;
 }
 .time--ago {
   color: var(--light-gray);
-  font-size: var(--tertiary-terxt);
+  font-size: var(--tertiary-text);
   padding: 5px 0;
 }
 .action--bar--alert {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   height: 88px;
   width: 375px;
+  background-color: var(--black);
+}
+.icon--letter {
+  background: transparent;
+  color: var(--social-blue);
+}
+.icon--symbol {
+  background: transparent;
 }
