@@ -1,3 +1,7 @@
+body {
+  min-width: 100%;
+}
+
 .profile--banner {
   position: absolute;
   width: 375px;
