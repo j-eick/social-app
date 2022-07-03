@@ -35,17 +35,28 @@
   width: 48px;
   height: 16px;
   left: 24px;
-  top: 380px;
+  top: 370px;
   font-size: var(--tertiary-terxt);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--light-gray);
 }
-.alert--container {
+.alert--container--new {
   position: relative;
   height: 95px;
   width: 375px;
   top: 152px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--gray);
+}
+.alert--container--old {
+  position: relative;
+  height: 95px;
+  width: 375px;
+  top: 215px;
   display: flex;
   flex-direction: row;
   justify-content: center;
