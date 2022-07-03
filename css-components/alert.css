@@ -126,4 +126,6 @@
 }
 .icon--symbol {
   background: transparent;
+  color: var(--light-white);
+  margin-bottom: 4px;
 }
