@@ -1,0 +1,121 @@
+.profile--banner {
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+}
+.profile--photo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 113px;
+  top: 85px;
+  background: transparent;
+}
+.user--field {
+  position: absolute;
+  width: 375px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  top: 247px;
+}
+.user--name {
+  margin: 0.3rem;
+  font-size: var(--title);
+  font-weight: 700;
+  color: var(--white);
+  font-weight: 600;
+}
+.user--city {
+  margin: 0.3rem;
+  font-weight: 400;
+  font-size: var(--secondary-text);
+  color: var(--light-gray);
+}
+.user--job {
+  margin: 0.3rem;
+  font-weight: 400;
+  font-size: var(--secondary-text);
+  color: var(--light-white);
+  font-weight: 200;
+}
+.profile--actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 29px;
+  position: absolute;
+  width: 327px;
+  height: 36px;
+  left: 24px;
+  top: 353px;
+  font-size: var(--secondary-text);
+}
+.follower--num {
+  font-weight: 600;
+}
+.follower--text {
+  font-weight: 400;
+  color: var(--light-gray);
+}
+.edit--btn {
+  border: 1px solid var(--light-gray);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 133px;
+  height: 36px;
+  font-weight: 600;
+}
+.tab--bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 56px;
+  width: 324px;
+  height: 16px;
+  position: absolute;
+  left: 24px;
+  top: 421px;
+  font-size: var(--secondary-text);
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+}
+.divider1 {
+  position: absolute;
+  top: 449px;
+  left: 24px;
+  width: 326px;
+  height: 0px;
+  border: 1px solid var(--gray);
+}
+.divider2 {
+  position: absolute;
+  top: 449px;
+  left: 22px;
+  width: 36px;
+  height: 0px;
+  border: 2px solid var(--social-blue);
+  border-radius: 30px;
+}
+.action--bar--profile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 88px;
+  width: 375px;
+}
